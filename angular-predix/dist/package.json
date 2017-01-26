@@ -1,0 +1,42 @@
+{
+  "name": "aakash",
+  "version": "3.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "author": {
+    "name": "Predix Experience",
+    "email": "Predix.experience@ge.com"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "predix-seed"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^6.3.6",
+    "connect-modrewrite": "^0.7.9",
+    "http-rewrite-middleware": "^0.1.6",
+    "merge-stream": "^1.0.0",
+    "node-sass": "^3.8.0",
+    "node-sass-import-once": "^1.2.0",
+    "open": "0.0.4",
+    "request": "^2.58.0",
+    "run-sequence": "^1.2.2",
+    "sass-import-modules": "^2.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-http-proxy": "^0.10.0",
+    "express-session": "^1.14.1",
+    "glob": "^7.0.3",
+    "https-proxy-agent": "^1.0.0",
+    "json-server": "^0.8.10",
+    "lodash": "^4.11.2",
+    "url": "^0.11.0"
+  }
+}

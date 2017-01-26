@@ -1,0 +1,10 @@
+---
+applications:
+  - name: aaki-hello
+    memory: 64M
+    buildpack: nodejs_buildpack
+    command: node server.js
+    path: dist
+env:
+    node_env: cloud
+
